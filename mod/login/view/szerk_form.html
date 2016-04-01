@@ -1,0 +1,33 @@
+
+<!--figyelem! legyen benne <input type="hidden" name="itemid" data="id" /> mező -->
+
+<section class="container">
+    <h4><!--##passwd_change--></h4>
+  <!--<h5>hiba</h5>-->
+    <form    method="post" action="" >
+        <div class="row">
+            <div class="col-sm-5">
+                <!-- <div class="form-group">
+                     <input type="text" class="form-control" required="required" placeholder="Usernév" name="username" data="username">
+                  </div>-->
+                  <div class="form-group">
+                      <input type="password" class="form-control" name="oldpass" placeholder="<!--##regi_jelszo-->" data="oldpass" required="required" >
+                  </div>
+                  <div class="form-group">
+                      <input type="password" class="form-control" name="password" placeholder="<!--##uj_jelszo-->" data="password" required="required" >
+                  </div>
+                  <div class="form-group">
+                      <input type="password" class="form-control" name="password2" placeholder="<!--##uj_megegyszer-->" data="password2" required="required" >
+                  </div>
+                  <div class="form-group">
+                      <input type="hidden" name="itemid" data="id" />
+                      <input type="hidden" name="mod" value="login" />
+                      <button type="submit" name="ltask" value="szerkment" class="btn btn-primary btn-lg"><!--##ment--></button>
+                      <button type="reset" name="ltask" value="cancel" class="btn btn-primary btn-lg" onclick="window.location='index.php?app=admin&ftask=login'" ><!--##megsem--></button>
+                  </div>
+
+              </div>
+
+          </div>
+      </form>
+  </section><!--/.col-sm-8-->

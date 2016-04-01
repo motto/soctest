@@ -1,0 +1,121 @@
+<!--figyelem! legyen benne <input type="hidden" name="itemid" data="id" /> mező -->
+<style>
+td {padding-left: 5%;}
+table{background-color: #374f70;}
+    .ertek{color: orange}
+    .feher{color: #f7f7f7}
+.btkep{font-size: small;}
+    h2{padding-left: 5%;}
+    h4{padding-left: 5%;}
+</style>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/hu_HU/sdk.js#xfbml=1&version=v2.5";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<h2><!--##udv-->  <!--#username--> !</h2>
+
+    <form method="post" action="index.php?app=admin" >
+
+<table>
+    <tr><td> <h4><!--##sajat_egyenleg-->  </h4></td>
+        <td><span class="ertek" ><!--#egyenleg--> <span class="feher">satoshi </span></span></td>
+        <td>
+            <button type="reset" class="btn btn-primary btn-lg" onclick="window.location='index.php?app=admin&fget=account'">
+                <!--##penztar-->   </button>
+        </td>
+    </tr>
+    <tr><td> <h4> <!--##sajat_tarca--></h4></td>
+        <td><span class="ertek" ><!--#tarca--></span></td>
+        <td>
+
+        </td>
+    </tr>
+    <tr><td> <h4><!--##ajanlo_link--></h4></td>
+        <td><span class="ertek" > http://socialbittap.com/?ref=<!--#userid--></span></td>
+        <td>
+
+    </tr>
+</table>
+        <h2></h2>
+        <h4><!--##ajanlo_link_tx--></h4>
+        <h4> <!--##ajanlo_link_tx2--> </h4>
+        <table>
+            <tr>
+
+                <td><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://proba.socialbittap.com/index.php?ref=<!--refid-->" data-text="Ez az intro">Tweet</a>
+                </td>
+                <td> <div class="g-plusone"></div></td>
+                <td>
+                    <div id="fb-root"></div><div class="fb-share-button" data-href="http://socialbittap.com/index.php?ref=<!--refid-->" data-layout="button_count"></div>
+                    <div class="fb-send"
+                         data-href="http://proba.socialbittap.com/index.php?ref=<!--refid-->" data-layout="button_count"
+                         data-layout="button_count">
+                    </div></td>
+
+            </tr>
+        </table>
+
+ <table>
+     <tr><td> <h4><!--##passwd--></h4></td>
+         <td><span class="ertek" ><!--##valtoztatni--></span></td>
+         <td>
+             <button  type="reset" class="btn btn-primary btn-lg" onclick="window.location='index.php?app=admin&mod=login&ltask=szerk'"><!--##change-->
+             </button>
+         </td>
+     </tr>
+
+     <tr><td> <h4>Email:</h4></td>
+         <td><span class="ertek" ><!--#email--></span></td>
+        <td>
+            <button  type="submit" name="nev" value="email" class="btn btn-primary btn-lg"><!--##change-->
+            </button>
+        </td>
+    </tr>
+    <tr><td> <h4><!--##username--></h4></td>
+        <td><span class="ertek" ><!--#username--></span></td>
+        <td>
+            <button  type="submit" name="nev" value="username" class="btn btn-primary btn-lg"><!--##change-->
+            </button>
+        </td>
+    </tr>
+    <tr><td> <h4><!--##kifcim--></h4></td>
+        <td><span class="ertek" ><!--#kifcim--></span></td>
+        <td>
+            <button  type="submit" name="nev" value="kifcim" class="btn btn-primary btn-lg"><!--##change-->
+            </button>
+        </td>
+    </tr>
+<input type="hidden" name="task" value="szerk">
+    </form>
+<!--/.col-sm-8-->
+
+
+<!--
+
+<meta property="og:url"           content="http://www.your-domain.com/your-page.html" />
+<meta property="og:type"          content="website" />
+<meta property="og:title"         content="Your Website Title" />
+<meta property="og:description"   content="Your description" />
+<meta property="og:image"         content="http://www.your-domain.com/path/image.jpg" />
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/hu_HU/sdk.js#xfbml=1&version=v2.5";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-like" data-href="http://socialbittap.com/index.php?app=base&ref=123" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+
+-->
+
+

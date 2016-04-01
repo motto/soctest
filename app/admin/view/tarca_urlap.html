@@ -1,0 +1,25 @@
+<!--figyelem! legyen benne <input type="hidden" name="itemid" data="id" /> mező -->
+
+<section class="container">
+    <h4>Tárca admin</h4>
+    <form  class="contact-form"  method="post" action="#" >
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="form-group">
+                    <input type="text" class="form-control" required="required" placeholder="Tárca cím" name="tarca" data="tarca" ><!--link-->
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="megjegyzes" placeholder="Megjegyzés" data="megjegyzes" ><!--megjegyzes-->
+                </div>
+<input type="hidden" name="itemid" data="id" />
+                <div class="form-group">
+                    <button type="submit" name="task" value="ment" class="btn btn-primary btn-lg">Ment</button>
+                    <button type="submit"  name="task" value="mentuj" class="btn btn-primary btn-lg" >Ment és új felvitel</button>
+                    <button type="reset" name="task" value="alap" class="btn btn-primary btn-lg" onclick="window.location='index.php?app=admin&fget=tarca'" >Mégsem</button>
+                </div>
+
+            </div>
+
+        </div>
+    </form>
+</section><!--/.col-sm-8-->
